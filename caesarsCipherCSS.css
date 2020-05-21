@@ -1,0 +1,58 @@
+body {
+    background-color: navajowhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#desc {
+    font-family: 'Spartan', sans-serif;
+    font-size: 22px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#input {
+    width: 60vw;
+    height: 15vh;
+}
+
+.buttons {
+    width: 17vw;
+    height: 5vh;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+#answer {
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 825px) {
+    .buttons {
+        width: 40vw;
+        height: 8vh;
+        font-size: 10px;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #desc {
+        text-align: center;
+    }
+
+    #input {
+        width: 90vw;
+    }
+}
